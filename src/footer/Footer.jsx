@@ -12,11 +12,11 @@ const Footer = () => {
             <div className='footer_in'>
                 <div className='footer_in1'>
                     <a href="tel:+919336673099"><button><img src={phone} alt="" />Let's Talk</button></a>
-                    <a href="mailto:support@eklavyasolution.com"><h4>support@eklavyasolution.com</h4></a>
+                    <a href="mailto:info@eklavyasolution.com"><h4>info@eklavyasolution.com</h4></a>
                 </div>
                 <div className='footer_in2'>
                     <h3>Address</h3>
-                    <p>Vbhc Colony Anekal Block 10 , Flat 21 , Anekal, Bangalore 562106</p>
+                    <p>C-256 New Ashok Nagar, New Delhi,110096</p>
                 </div>
             </div>
             <div className='social_links_footer'>

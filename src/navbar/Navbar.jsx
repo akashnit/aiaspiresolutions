@@ -30,11 +30,10 @@ const Navbar = () => {
                 <div className='nav_connect'>
                     <div className='nav_contact'>
                         <h3 className='contact'>Contact</h3>
-                        <h5>Vbhc Colony Anekal Block 10 , Flat 21 , Anekal, Bangalore 562106</h5>
-                        <a href="mailto:support@eklavyasolution.com"><h6>support@eklavyasolution.com</h6></a>
+                        <h5>C-256 New Ashok Nagar, New Delhi,110096</h5>
+                        <a href="mailto:info@eklavyasolution.com"><h6>info@eklavyasolution.com</h6></a>
                         <a href="tel:+919336673099"><h6>+ 91 9336673099</h6></a>
                     </div>
-
                     <div className='social_links_parent'>
                         <h3 className='social_link_heading'>Social Links</h3>
                         <div className='social_links'>
