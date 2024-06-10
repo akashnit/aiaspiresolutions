@@ -8,14 +8,14 @@ import Training from './training/Training.jsx';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path='/'>
-        <Navbar />
-        <Route index element={<MainPage />} />
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<MainPage />} />
         <Route path='/training' element={<Training />} />
-        <Footer />
-      </Route>
-    </Routes>
+      </Routes>
+      <Footer />
+    </>
   )
 }
 
