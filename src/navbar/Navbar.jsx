@@ -4,6 +4,7 @@ import eklavya from '../assets/Group 7799 (1).svg';
 // import Fb from "../assets/fb.png"
 import LinkedIn from "../assets/ln.png"
 import Ig from "../assets/ig.png"
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [navMenu, setNavMenu] = useState(false);
@@ -22,10 +23,10 @@ const Navbar = () => {
             </div>
             <div className={`navbar_screen ${navMenu ? 'navbar_screen_active' : ""}`}>
                 <div className='nav_links_parent'>
-                    <a href="/" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Home</h2></a>
+                    <NavLink to="/" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Home</h2></NavLink>
                     <a href="/#about" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>About</h2></a>
                     <a href="/#services" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Services</h2></a>
-                    <a href="/training" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Training</h2></a>
+                    <NavLink to="/training" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Training</h2></NavLink>
                 </div>
                 <div className='nav_connect'>
                     <div className='nav_contact'>

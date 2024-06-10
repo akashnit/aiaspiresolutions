@@ -2,8 +2,8 @@ import React from 'react'
 import Navbar from './navbar/Navbar'
 import MainPage from './pages/MainPage'
 import Footer from './footer/Footer'
-import { Routes, Route } from "react-router-dom";
 import Training from './training/Training.jsx';
+import { Route, Routes } from 'react-router-dom';
 
 
 const App = () => {
