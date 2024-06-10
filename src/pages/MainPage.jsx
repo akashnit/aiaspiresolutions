@@ -27,7 +27,7 @@ const MainPage = () => {
         </div>
       </div>
       <div className='rest_page'>
-        <div className='about_page'>
+        <div className='about_page' id='about'>
           <div className='about_page_in'>
             <div className='about_page_in1'>
               <h4>About Us</h4>

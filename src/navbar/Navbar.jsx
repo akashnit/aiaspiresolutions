@@ -22,15 +22,15 @@ const Navbar = () => {
             </div>
             <div className={`navbar_screen ${navMenu ? 'navbar_screen_active' : ""}`}>
                 <div className='nav_links_parent'>
-                    <h2 className='nav_links'>Home</h2>
-                    <h2 className='nav_links'>About</h2>
-                    <a href="#services" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Services</h2></a>
-                    {/* <h2 className='nav_links'>Work</h2> */}
+                    <a href="/" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Home</h2></a>
+                    <a href="/#about" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>About</h2></a>
+                    <a href="/#services" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Services</h2></a>
+                    <a href="/training" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Training</h2></a>
                 </div>
                 <div className='nav_connect'>
                     <div className='nav_contact'>
                         <h3 className='contact'>Contact</h3>
-                        <h5>C-256 New Ashok Nagar, New Delhi,110096</h5>
+                        <h5>C-256 New Ashok Nagar,<br /> New Delhi, 110096</h5>
                         <a href="mailto:info@eklavyasolution.com"><h6>info@eklavyasolution.com</h6></a>
                         <a href="tel:+919336673099"><h6>+ 91 9336673099</h6></a>
                     </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav >
 
     )
 }

@@ -1,0 +1,396 @@
+.training {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.training_page_parent {
+    width: 100%;
+    height: 100vh;
+}
+
+.training_landing_page {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-image: url('../assets/training_bg.svg');
+    background-size: cover;
+}
+
+.training_page_content {
+    width: 50%;
+    padding-left: 160px;
+    padding-top: 200px;
+}
+
+.training_page_content>h1 {
+    font-size: 128px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.training_page_content>p{
+    font-size: 13px;
+    color: red;
+    font-weight: 500;
+    margin-left: 10px;
+    letter-spacing: 0.3px;
+    user-select: none;
+}
+.training_page_content button {
+    margin-top: 50px;
+    outline: none;
+    padding: 8px 35px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(to right, #FF8F44, #FF300D);
+    cursor: pointer;
+}
+
+/* .text p span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 35vmin;
+} */
+
+.training_page_img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.training_page_img>img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.traning_rest_page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    color: white;
+    z-index: 50;
+}
+
+.training_about_page {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: grid;
+    place-items: center;
+}
+
+.training_about_page_in {
+    width: 1150px;
+    min-width: 600px;
+    height: 450px;
+    /* background: red; */
+    display: flex;
+}
+
+.training_about_page_in1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.training_about_page_in1>h4 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.training_about_page_in1>h3 {
+    margin: 20px 0;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.3px;
+}
+
+.training_about_page_in1>h3>span {
+    color: #FF7E2F;
+}
+
+.training_about_page_in1>p {
+    color: #aaa;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.about_page_in1>h5 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2;
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+.training_about_page_in2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.training_about_page_in2>img {
+    width: 90%;
+    object-fit: cover;
+}
+
+.benefits_page_in {
+    width: 100%;
+    height: 100%;
+    padding: 160px 195px;
+    border-top: 1px solid #777;
+}
+
+.benefits_page_in>h4 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.benefits_heading>h3 {
+    margin-top: 40px;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 1;
+}
+
+.benefits_heading>h3>span {
+    color: #FF7E2F;
+
+}
+
+.benefits_content {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+
+.benefits_content1 {
+    width: 60%;
+}
+
+.benefits_content2 {
+    width: 40%;
+}
+
+.benefits_content1 {
+    padding-left: 20px;
+}
+
+.benefits_content1>h4 {
+    font-size: 25px;
+    color: #aaa;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    letter-spacing: 0.3px;
+}
+
+.benefits_content1>h4>span {
+    font-weight: 500;
+    color: white;
+}
+
+.benefits_content2>img {
+    width: 90%;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.benefits button {
+    margin-top: 40px;
+    outline: none;
+    padding: 8px 35px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(to right, #FF8F44, #FF300D);
+    cursor: pointer;
+}
+.benefits>p{
+    font-size: 13px;
+    color: rgb(255, 99, 99);
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 3px;
+    letter-spacing: 0.3px;
+}
+
+.vision>h4{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.vision>p{
+    font-size:18px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+
+
+@media screen and (max-width:580px) {
+
+
+    .training_landing_page {
+        flex-direction: column;
+    }
+
+    .training_page_content {
+        z-index: 9;
+        width: 100%;
+        padding-top: 110px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+
+    /* .training_page_content>a>button {
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        gap: 10px;
+    } */
+
+    /* .training_page_content>a>button>img {
+        width: 16px;
+    } */
+
+    /* .training_page_content>h3 {
+        font-size: 20px;
+    } */
+
+    .training_page_content>h1 {
+        font-size: 80px;
+        line-height: 0.88;
+    }
+
+    .training_page_content>p {
+        line-height: 1.1;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    .training_page_img {
+        width: 100%;
+        margin-top: 10px;
+        padding-top: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .training_about_page {
+        display: unset;
+    }
+
+    .training_about_page_in {
+        padding: 100px 40px;
+        width: 100%;
+        min-width: unset;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .training_about_page_in1,
+    .training_about_page_in2 {
+        width: 100%;
+        height: unset;
+    }
+
+    .training_about_page_in1>h3 {
+        font-size: 55px;
+    }
+
+    .training_about_page_in1>p {
+        font-size: 17px;
+    }
+    .training_about_page_in2{
+        margin-left: 20px;
+    }
+    .training_about_page_in2>img {
+        width: 120%;
+        object-fit: cover;
+    }
+
+    .benefits_page_in {
+        width: 100%;
+        padding: 100px 40px;
+    }
+    
+    .benefits_heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+    
+    .benefits_heading>h3 {
+        font-size: 70px;
+    }
+    
+    .benefits_content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .benefits_content1,
+    .benefits_content2 {
+        width: 100%;
+    }
+    
+    .benefits_content1 {
+        padding-left: 0px;
+    }
+    
+    .benefits_content1>h4 {
+        font-size: 22px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    
+    
+    .benefits_content2>img {
+        width: 100%;
+        height: unset;
+        object-fit: cover;
+        margin-left: 0px;
+    }
+    
+   
+}
