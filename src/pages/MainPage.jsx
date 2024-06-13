@@ -8,6 +8,7 @@ import landing_img from '../assets/original-0ebf1e6c9a64bfe1510cf8d72de99185.gif
 import seo from '../assets/Designer (5).png';
 import vid from '../assets/vid4.mp4';
 import phone from '../assets/download.png';
+import { Link } from 'react-router-dom';
 
 const MainPage = () => {
   return (
@@ -19,7 +20,7 @@ const MainPage = () => {
             <h3>Digital Agency</h3>
             <h1>We Create <span>Future</span></h1>
             <p>We create digital solutions beyond imagination with engaging experiences and captivating campaigns leaving positive impact</p>
-            <a href="tel:+919336673099"><button><img src={phone} alt="" />Let's Talk</button></a>
+            <Link to="tel:+919336673099"><button><img src={phone} alt="" />Let's Talk</button></Link>
           </div>
           <div className='landing_page_img'>
             <img src={landing_img} alt="" />

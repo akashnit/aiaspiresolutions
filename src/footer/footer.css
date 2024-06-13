@@ -91,7 +91,7 @@ footer>h3>span {
     letter-spacing: 0.5px;
 }
 
-.footer_bottom>h4 {
+.footer_bottom>a>h4 {
     color: #aaa;
     font-size: 17px;
     font-weight: 400;
@@ -118,7 +118,7 @@ footer>h3>span {
     }
 
     .footer_in1>a>button {
-        margin:unset;
+        margin: unset;
         margin-top: unset;
         padding: 12px 20px;
         font-size: 16px;

@@ -4,6 +4,7 @@ import MainPage from './pages/MainPage'
 import Footer from './footer/Footer'
 import Training from './training/Training.jsx';
 import { Route, Routes } from 'react-router-dom';
+import PrivacyPolicy from './privacy/PrivacyPolicy.jsx';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<MainPage />} />
         <Route path='/training' element={<Training />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </>

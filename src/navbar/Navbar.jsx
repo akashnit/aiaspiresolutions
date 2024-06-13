@@ -32,15 +32,15 @@ const Navbar = () => {
                     <div className='nav_contact'>
                         <h3 className='contact'>Contact</h3>
                         <h5>C-256 New Ashok Nagar,<br /> New Delhi, 110096</h5>
-                        <a href="mailto:info@eklavyasolution.com"><h6>info@eklavyasolution.com</h6></a>
-                        <a href="tel:+919336673099"><h6>+ 91 9336673099</h6></a>
+                        <Link to="mailto:info@eklavyasolution.com"><h6>info@eklavyasolution.com</h6></Link>
+                        <Link to="tel:+919336673099"><h6>+ 91 9336673099</h6></Link>
                     </div>
                     <div className='social_links_parent'>
                         <h3 className='social_link_heading'>Social Links</h3>
                         <div className='social_links'>
                             {/* <img src={Fb} alt="Facebook Link" /> */}
-                            <a target='blank' href="https://www.instagram.com/eklavyasolution?igsh=N3R0bWs2bXozc204"><img src={Ig} alt="Instagram Link" /></a>
-                            <a target='blank' href="https://www.linkedin.com/company/eklavyasolution/mycompany/verification/?viewAsMember=true"><img src={LinkedIn} alt="LinkedIn Link" /></a>
+                            <Link target='blank' to="https://www.instagram.com/eklavyasolution?igsh=N3R0bWs2bXozc204"><img src={Ig} alt="Instagram Link" /></Link>
+                            <Link target='blank' to="https://www.linkedin.com/company/eklavyasolution/mycompany/verification/?viewAsMember=true"><img src={LinkedIn} alt="LinkedIn Link" /></Link>
                         </div>
                     </div>
                 </div>
