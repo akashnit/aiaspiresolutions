@@ -24,8 +24,8 @@ const Navbar = () => {
             <div className={`navbar_screen ${navMenu ? 'navbar_screen_active' : ""}`}>
                 <div className='nav_links_parent'>
                     <NavLink to="/" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Home</h2></NavLink>
-                    <a href="/#about" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>About</h2></a>
-                    <a href="/#services" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Services</h2></a>
+                    {/* <a href="/#about" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>About</h2></a> */}
+                    {/* <a href="/#services" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Services</h2></a> */}
                     <NavLink to="/training" onClick={() => setNavMenu(!navMenu)}><h2 className='nav_links'>Training</h2></NavLink>
                 </div>
                 <div className='nav_connect'>
