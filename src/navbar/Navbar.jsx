@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./navbar.css";
-import eklavya from '../assets/Group 7799 (1).svg';
+import eklavya from '../assets/company log.png';
 // import Fb from "../assets/fb.png"
 import LinkedIn from "../assets/ln.png"
 import Ig from "../assets/ig.png"
