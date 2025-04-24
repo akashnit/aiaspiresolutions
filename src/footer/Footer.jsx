@@ -13,20 +13,20 @@ const Footer = () => {
             <div className='footer_in'>
                 <div className='footer_in1'>
                     <Link to="tel:+919336673099"><button><img src={phone} alt="" />Let's Talk</button></Link>
-                    <Link to="mailto:info@eklavyasolution.com"><h4>info@eklavyasolution.com</h4></Link>
+                    <Link to="mailto: info@aiaspiresolutions.com"><h4> info@aiaspiresolutions.com</h4></Link>
                 </div>
                 <div className='footer_in2'>
                     <h3>Address</h3>
-                    <p>C-256 New Ashok Nagar, New Delhi,110096</p>
+                    <p>3/112, Viram Khand, Gomtinagar Lucknow, Uttar Pradesh, India</p>
                 </div>
             </div>
             <div className='social_links_footer'>
                 {/* <img src={Fb} alt="Facebook Link" /> */}
                 <Link target='blank' to="https://www.instagram.com/eklavyasolution?igsh=N3R0bWs2bXozc204"><img src={Ig} alt="Instagram Link" /></Link>
-                <Link target='blank' to="https://www.linkedin.com/company/eklavyasolution/mycompany/verification/?viewAsMember=true"><img src={LinkedIn} alt="LinkedIn Link" /></Link>
+                <Link target='blank' to="https://www.linkedin.com/company/aiaspiressolutions/?viewAsMember=true"><img src={LinkedIn} alt="LinkedIn Link" /></Link>
             </div>
             <div className='footer_bottom'>
-                <h3>&copy; 2024 Eklavya Solutions.</h3>
+                <h3>&copy; 2024 Ai Aspire Solutions.</h3>
                 <Link to="/privacy-policy"><h4>Terms & Policies</h4></Link>
             </div>
         </footer>

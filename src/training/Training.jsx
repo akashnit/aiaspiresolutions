@@ -12,8 +12,8 @@ const Training = () => {
             <div className='training_page_parent'>
                 <div className='training_landing_page'>
                     <div className='training_page_content'>
-                        <h1>SUMMER<br />CAMP'24</h1>
-                        <a target='blank' href='https://docs.google.com/forms/d/1-SxCetbVwjwvXYF67GFkbtsREynF0Li02DIR5I0s3_Q/edit'><button>Apply Now</button></a>
+                        <h1>SUMMER<br />CAMP'25</h1>
+                        <a target='blank' href='https://forms.gle/9rGRUg6ci8EutyAf7'><button>Apply Now</button></a>
                         <p>Limited seats available. Apply asap</p>
                     </div>
                     <div className='training_page_img'>
@@ -62,7 +62,7 @@ const Training = () => {
                                 <img src={certi} alt="" />
                             </div>
                         </div>
-                        <a target='blank' href='https://docs.google.com/forms/d/1-SxCetbVwjwvXYF67GFkbtsREynF0Li02DIR5I0s3_Q/edit'><button>Apply Now</button></a>
+                        <a target='blank' href='https://forms.gle/9rGRUg6ci8EutyAf7'><button>Apply Now</button></a>
                         <p>Limited seats available. Apply asap</p>
                     </div>
                 </div>
