@@ -22,8 +22,8 @@ const Footer = () => {
             </div>
             <div className='social_links_footer'>
                 {/* <img src={Fb} alt="Facebook Link" /> */}
-                <Link target='blank' to="https://www.instagram.com/eklavyasolution?igsh=N3R0bWs2bXozc204"><img src={Ig} alt="Instagram Link" /></Link>
-                <Link target='blank' to="https://www.linkedin.com/company/aiaspiressolutions/?viewAsMember=true"><img src={LinkedIn} alt="LinkedIn Link" /></Link>
+                <Link target='blank' to="https://www.instagram.com/eklavyasolution"><img src={Ig} alt="Instagram Link" /></Link>
+                <Link target='blank' to="https://www.linkedin.com/company/aiaspiressolutions"><img src={LinkedIn} alt="LinkedIn Link" /></Link>
             </div>
             <div className='footer_bottom'>
                 <h3>&copy; 2024 Ai Aspire Solutions.</h3>
